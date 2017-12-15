@@ -1,0 +1,62 @@
+Libro Concetti di informatica e fondamenti di java (quinta edizione per le versione 5,6,7)
+scaricare intelliJ IDEA
+
+
+L'interprete è fornito da ORACLE
+Java è una via di mezzo tra compilato ed interpretato perchè c'è una parte di eseguibile.
+La java virtual machine è fondamentale per interpretare il codice java.
+
+I metodi contengono le istruzioni
+Il nome della classe ed il nome del file devono essere uguali (estensione .java).
+Compiliamo (javac welcome1.java) mentre per aprirlo (java welcome1-->Codice sorgente trasformato in byte code.
+il file.class contiene il Java Byte Code (creato dopo la compilazione ed è il file che si può passare a chiunque abbia la JVM).
+
+ogni oggetto è una parte del dominio del nostro problema.
+l'oggetto presenta delle caratteristiche
+Qual è l'oggetto che fornisce questo oggetto?
+Gli oggetti software possono rappresentare entità del mondo reale. Al crescere del dominio del problema, gli oggetti diventano numerosi.
+
+
+Occorre trovare gli oggetti di interesse con le relative funzionalità di interesse (attributi).
+Libro (ci si riferisce ad un insieme di oggetti con attributi comuni ma comunque composto da entità aventi caratteristiche proprie che rendono ognuna differente rispetto all'altra).
+
+Classe-->CATEGORIA
+Oggetto-->ISTANZA
+
+Classe Studente 
+Noi siamo 80 istanze della classe STUDENTE.
+DANIELA e' un'istanza della classe STUDENTE.
+
+
+I METODI sono le funzioni
+gli ATTRIBUTI sono le caratteristiche
+
+La struttura interna è incapsulata
+(variabili private=PROTETTE)
+
+Il messaggio è un modo che permette ad un oggetto di parlare con un altro, in particolare per richiamare un metodo.
+Il messaggio può avere un feedback.
+
+
+composizione messaggio
+ricevente.nomeMetodo(parametri)
+ad esempio
+
+bici.cambiaRapporto(2)
+
+Il punto serve ad accedere alle funzionalità pubbliche di quell'oggetto.
+
+Bicicletta-->Nome classe (da scrivere sempre con la prima lettera maiuscuola)
+
+I nomi delle caratteristiche e delle funzionalità sono tutti minuscoli. Bici è un'istanza della classe Bicicletta.
+
+
+Il file a sinistra di pagina 38 è in JAVA
+
+I due metodi permettono la modifica dello stato interno del soggetto, modificando variabili protette (incapsulate) onde evitare che un software esterno possa agire sulle suddette classi.
+
+
+
+
+
+gabryv98.gv@gmail.com
